@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
     private CharacterController controller;
     private Animator anim;
-    
+
     private Vector3 moveDirection;
     private Vector3 velocity;
     
-    [SerializeField]private Transform cameraTransform;
+    [SerializeField] private Transform cameraTransform;
     [SerializeField] private float turnSmoothTime = 0.1f;
     [SerializeField] private float turnSmoothVelocity;
     
@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private float runSpeed;
     [SerializeField] private float jumpHeight;
    
-
     [SerializeField] private bool isGrounded;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundMask;
@@ -46,10 +45,7 @@ public class PlayerMovement : MonoBehaviour {
         float moveZ = Input.GetAxisRaw("Vertical");
         
         moveDirection = new Vector3(moveX, 0, moveZ).normalized;
-        //moveDirection = transform.TransformDirection(moveDirection);
-
         moveDirection = Quaternion.AngleAxis(cameraTransform.rotation.eulerAngles.y, Vector3.up) * moveDirection;
-        //moveDirection.Normalize();
 
         if(isGrounded) {
             if(moveDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift)) {
@@ -57,7 +53,6 @@ public class PlayerMovement : MonoBehaviour {
                 float targetAngle = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 transform.rotation = Quaternion.Euler(0, angle, 0);
-                // Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
                 Run();
             }
             else if(moveDirection != Vector3.zero) {
@@ -73,14 +68,13 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             moveDirection *= movementSpeed;
-
-            if(Input.GetKeyDown(KeyCode.Space)) {
-                Jump();
-            }
-
             
             if(Input.GetKeyDown(KeyCode.G)) {
                 Dodge();
+            }
+            
+            if(Input.GetKeyDown(KeyCode.Space)) {
+                Jump();
             }
         }
 

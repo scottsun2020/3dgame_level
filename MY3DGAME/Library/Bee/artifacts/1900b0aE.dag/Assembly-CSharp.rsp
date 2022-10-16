@@ -362,6 +362,7 @@
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs"
 "Assets/Scripts/GemPowerUp.cs"
 "Assets/Scripts/HeartPowerUp.cs"
+"Assets/Scripts/PlayerCombat.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerStats.cs"
 -langversion:9.0

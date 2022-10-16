@@ -15,7 +15,7 @@ C:/Users/cruz2/Documents/3dgame_level-main/3dgame_level-main/MY3DGAME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58557
+60496
 Successfully changed project path to: C:/Users/cruz2/Documents/3dgame_level-main/3dgame_level-main/MY3DGAME
 C:/Users/cruz2/Documents/3dgame_level-main/3dgame_level-main/MY3DGAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/cruz2/Documents/3dgame_level-main/3dgame_level-main/MY3DGAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 168.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 171.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -58,83 +58,83 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   NVIDIA
     VRAM:     6052 MB
-    Driver:   31.0.15.1748
+    Driver:   31.0.15.2225
 Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007732 seconds.
+Registered in 0.007728 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 165.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 166.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.156 seconds
+- Completed reload, in  1.160 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1156ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (852ms)
-			LoadAssemblies (120ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (527ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (166ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007186 seconds.
+Registered in 0.007096 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.670 seconds
+- Completed reload, in  1.664 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1672ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (1665ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1272ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1278ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (393ms)
+			SetupTypeCache (405ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (573ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (571ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (225.6 KB). Loaded Objects now: 3792.
 Memory consumption went from 209.4 MB to 209.2 MB.
-Total: 4.880800 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.358800 ms MarkObjects: 3.816000 ms  DeleteObjects: 0.293100 ms)
+Total: 4.343400 ms (FindLiveObjects: 0.381900 ms CreateObjectMapping: 0.279600 ms MarkObjects: 3.446300 ms  DeleteObjects: 0.234300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,211 +162,1069 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 685948.768134 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Cart.physicMaterial
-  artifactKey: Guid(78d04382307048b4681eae7b8232736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Cart.physicMaterial using Guid(78d04382307048b4681eae7b8232736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d22c5b1ad51a8f4d84fd03889582254') in 0.083495 seconds 
+  Time since last request: 142105.480711 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword
+  artifactKey: Guid(f00c20162cf2b0d4f847034655f19f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword using Guid(f00c20162cf2b0d4f847034655f19f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2265589f7b6707ae4873c6c604ff986f') in 0.015237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 246.358148 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/glass.mat
-  artifactKey: Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/glass.mat using Guid(2ce01831e9f3ae441bb48623e5fbe0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4310528523da96b36127c45bb7b7bdd') in 0.195282 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Metalon
+  artifactKey: Guid(c492fd5ca9b75c14ba8eec86627d2462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon using Guid(c492fd5ca9b75c14ba8eec86627d2462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1666ea1a6ac5661b445652fb80ff61') in 0.009384 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat
-  artifactKey: Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram_particle.mat using Guid(d37e8378fe566f84a8b75b0083ec4838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514c67038160199ad8661faabb69333') in 0.024235 seconds 
+  Time since last request: 0.518470 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model
+  artifactKey: Guid(18bd3b90608f61a479eb1f1acfe3bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model using Guid(18bd3b90608f61a479eb1f1acfe3bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70931b31208c701f07b2af4437a2309') in 0.009595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat
-  artifactKey: Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat using Guid(0f4853191d321d748b1f95a97d7b37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1e76d2b2b198e2cac76fde20ef78d') in 0.026135 seconds 
+  Time since last request: 1.251618 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs
+  artifactKey: Guid(fa42ebda9fcd0104fbf9874b331643f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs using Guid(fa42ebda9fcd0104fbf9874b331643f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797d50ab5a7684a566a1d5c4adc6e698') in 0.009987 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat
-  artifactKey: Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/hologram.mat using Guid(e305453a48fa58446882f6671dfa0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917fe2f0edfeb5bece7d09207b505de0') in 0.020742 seconds 
+  Time since last request: 0.820736 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Model_Sword_Cyber_Ninja.FBX
+  artifactKey: Guid(f32442828616b1b4c9e1027923ad9a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Model_Sword_Cyber_Ninja.FBX using Guid(f32442828616b1b4c9e1027923ad9a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb8a7f2091996c74dd4bd5c917bb45') in 0.268881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/iron man color.mat
-  artifactKey: Guid(66fe1a0e0becc6f4bbc49896f2111756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/iron man color.mat using Guid(66fe1a0e0becc6f4bbc49896f2111756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68327e80980f5654f2f195b35c4d7f76') in 0.057661 seconds 
+  Time since last request: 1.348448 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials
+  artifactKey: Guid(35ede026c048d4140a5923b3c0f46b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials using Guid(35ede026c048d4140a5923b3c0f46b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe994a9bac46fbdddcef40c21e1dc9db') in 0.009396 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/lattice floor.mat
-  artifactKey: Guid(62dcf96e239eb0d4db44cbe622abf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/lattice floor.mat using Guid(62dcf96e239eb0d4db44cbe622abf152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1454d442eef3f8f9383fb02c24339b87') in 0.022139 seconds 
+  Time since last request: 0.028132 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Broken.mat
+  artifactKey: Guid(5637a264865a5fc4e99736d87c754f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Broken.mat using Guid(5637a264865a5fc4e99736d87c754f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec8ae4b7b95f661d2bfd5c5aec60adb') in 0.843783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.382834 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Light Mat.mat
-  artifactKey: Guid(bc9fc69a1c4243343bff25dd7532a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Light Mat.mat using Guid(bc9fc69a1c4243343bff25dd7532a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d88a0ad22ac07d63cba719cb581166') in 0.025512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Material.mat
-  artifactKey: Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Material.mat using Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff838c1d3b6c320330ead74f142224') in 0.091104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_bush.mat
-  artifactKey: Guid(4256c7f593c13f84bbd6e74b481a6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_bush.mat using Guid(4256c7f593c13f84bbd6e74b481a6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5495d4a9cd3191f831c81d6064cd0338') in 0.088484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat
-  artifactKey: Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_leaves.mat using Guid(5d84bcb5cc458944085f3169d277536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f29db4234343d5e52c4de1b70a1fb59') in 0.024790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat
-  artifactKey: Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat using Guid(71c78677fdc08394da7fd716fb41a991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42731adca1a7b3662f1808dd2bd0be9a') in 0.023789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Orange.mat
-  artifactKey: Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Orange.mat using Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ac0473795e61dfe7a616fa38d3c1a2') in 0.033745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Pink.mat
-  artifactKey: Guid(34a2d4fc8f422c345a4cc739f3ee3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Pink.mat using Guid(34a2d4fc8f422c345a4cc739f3ee3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4823bcd817081d32f5d0f897dd99e9') in 0.032568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/None__Utility_Map_1_png.mat
-  artifactKey: Guid(2f7a2c0cda9627641a4e8142e5ba354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/None__Utility_Map_1_png.mat using Guid(2f7a2c0cda9627641a4e8142e5ba354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef0887f91c383f5a83f029586ca978c') in 0.031434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Metal_B2.mat
-  artifactKey: Guid(81f28470c96a0dc408ed7e28434c9df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Metal_B2.mat using Guid(81f28470c96a0dc408ed7e28434c9df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56f31f41cdb4d4d01a6c82fed1c3a91') in 0.075859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
-  artifactKey: Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat using Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7931a62570498787a3cd21e89d75dbb7') in 0.022208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/Materials/No Name.mat
-  artifactKey: Guid(7a58152a38aedc0499250c326bba4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/Materials/No Name.mat using Guid(7a58152a38aedc0499250c326bba4d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecd1d6a296bc637da2f3def17d1f8ce') in 0.021218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat
-  artifactKey: Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat using Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d58e038826557c128f3e1749a8d32c') in 0.035161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.462712 seconds.
-  path: Assets/Extreme Sci-Fi LITE/FBX/Materials/Pipes_Rusty_1.mat
-  artifactKey: Guid(ea8260536b006294e8a1f2cfe0a2ac15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Extreme Sci-Fi LITE/FBX/Materials/Pipes_Rusty_1.mat using Guid(ea8260536b006294e8a1f2cfe0a2ac15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8931fb3e7a6d8157b3a95f7b509323') in 0.044730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat
-  artifactKey: Guid(de6321634d21cb346bbe7ed6b30a9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat using Guid(de6321634d21cb346bbe7ed6b30a9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ad3948cf5b94bbe14ccafa80d9edc5') in 0.047612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Polygonal Metalon/Materials/Polygonal Metalon Green.mat
-  artifactKey: Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygonal Metalon/Materials/Polygonal Metalon Green.mat using Guid(eb8fac8d0552e3f499a0eca1d3932a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d136b589958ddcd967ef558800eebe') in 0.042625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Green.mat
-  artifactKey: Guid(19a8115a1defa8b468527ec37318a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Green.mat using Guid(19a8115a1defa8b468527ec37318a15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae55c2fba6689406508416b7b7810c49') in 0.017330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.204268 seconds.
-  path: Assets/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat
-  artifactKey: Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat using Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a2ccb81e0187f5db1773c684602240') in 0.015919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat
-  artifactKey: Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat using Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd012463f291d9c614acf7d90ab3eeba4') in 0.091867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Red.mat
-  artifactKey: Guid(379899e0998cf2a45ba3a00ac7ae0795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Polygonal Metalon/Materials/Polygonal Metalon Red.mat using Guid(379899e0998cf2a45ba3a00ac7ae0795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e75f09d511a3d3d0ded4747a829bb91') in 0.086541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Purple.mat
-  artifactKey: Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Purple.mat using Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bbb9d2a7ace8eeaa8658c7d2b43eb1') in 0.024697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Red.mat
-  artifactKey: Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GEM/AurynSky/Gems Ultimate Pack/Materials/Red.mat using Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018501efb29cabc8d59396d19824ebeb') in 0.024282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Doors.fbx
-  artifactKey: Guid(825edafc6ccf17640908cb6b69e1c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Doors.fbx using Guid(825edafc6ccf17640908cb6b69e1c65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca869960a729b74abdb5e297a1650f2b') in 0.639720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corridor Entrance.fbx
-  artifactKey: Guid(909005b28345a69478157c4b0dccc3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corridor Entrance.fbx using Guid(909005b28345a69478157c4b0dccc3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a322d3da3679754f483389d451110da') in 0.104181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Polygonal Metalon/Materials/Polygonal Metalon Red.mat
-  artifactKey: Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygonal Metalon/Materials/Polygonal Metalon Red.mat using Guid(bcaad48fae9d78948944fe183b6e39fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d46429f92d3c2026ba497514f694272') in 0.071306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.687192 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Crate Long Mat.mat
-  artifactKey: Guid(56398f210688660468158fcbde7b8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Crate Long Mat.mat using Guid(56398f210688660468158fcbde7b8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6fd091f6d2a172c62840f9b77390c4') in 0.025765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/dark color.mat
-  artifactKey: Guid(14e5822a3f4e21e4d9ef3d687fe27b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/dark color.mat using Guid(14e5822a3f4e21e4d9ef3d687fe27b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa1bd8bf44cdfebfc93aa1c6054c978') in 0.023766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Effect/Sherbbs Particle Collection/Materials/DarkSkybox.mat
-  artifactKey: Guid(d56b341fb6cba0e4f96669e4995bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effect/Sherbbs Particle Collection/Materials/DarkSkybox.mat using Guid(d56b341fb6cba0e4f96669e4995bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2881cc7b1cc231cfafac17af533a0a5c') in 0.041784 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Thunder.mat
+  artifactKey: Guid(a6d0b35236cef9941b5ca107acca6313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Thunder.mat using Guid(a6d0b35236cef9941b5ca107acca6313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df8723a5950cb83c6034effbaff99ed') in 0.240158 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat
-  artifactKey: Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat using Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0954e353b8b9554720e20142c26c0b6c') in 0.031078 seconds 
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Ninja.mat
+  artifactKey: Guid(b1bac821fae591c44a498b84658d7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Ninja.mat using Guid(b1bac821fae591c44a498b84658d7eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b4f19c5d44f2484963cfcd3f506746') in 0.020400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Plasma.mat
+  artifactKey: Guid(28929489a7a13cb42ae8924c9b31f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Plasma.mat using Guid(28929489a7a13cb42ae8924c9b31f0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd84290eb8416d4e295dac4512324c15') in 0.079239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Honesty.mat
+  artifactKey: Guid(0a9dca16f027daa41b20cdda3ee17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Honesty.mat using Guid(0a9dca16f027daa41b20cdda3ee17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccae92d1a374aeff9924994b77ed6c97') in 0.073888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Defeated.mat
+  artifactKey: Guid(ac7f26dda1114824f9e7c953240fc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Defeated.mat using Guid(ac7f26dda1114824f9e7c953240fc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a6d1168f30d5aca5e97c00781f29f4') in 0.033045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Nightstrike.mat
+  artifactKey: Guid(c57aa671b01f925448878a13a45cee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Nightstrike.mat using Guid(c57aa671b01f925448878a13a45cee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14bd4d3984ffb7c09437f918b2e12d5') in 0.035833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Greenway.mat
+  artifactKey: Guid(3afa25116c407eb469a7b582f27a41f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Greenway.mat using Guid(3afa25116c407eb469a7b582f27a41f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552268eb82f9371fe684be8bc77aa86e') in 0.036875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Magma.mat
+  artifactKey: Guid(1e7c4fe830693ac479346c12d02ef1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Model/Materials/MAT_Sword_Cyber_Magma.mat using Guid(1e7c4fe830693ac479346c12d02ef1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba81c530599c55e5bd96e5a741866c37') in 0.038294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.522909 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Textures
+  artifactKey: Guid(f3072e784895149469566fa50788e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Textures using Guid(f3072e784895149469566fa50788e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d4f0d0aa9c93a385c3baccb76f4fec') in 0.009360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.158795 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Broken.prefab
+  artifactKey: Guid(2f83f0b0f2814224eaa3ed9bda39082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Broken.prefab using Guid(2f83f0b0f2814224eaa3ed9bda39082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e64e7c8a292e6a3f857db33d1e97e3') in 0.097035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Greenway.prefab
+  artifactKey: Guid(862ea6754452d6649988db8d686def60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Greenway.prefab using Guid(862ea6754452d6649988db8d686def60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c2e6b71d065aee258f9f54d972ed7c') in 0.033672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Honesty.prefab
+  artifactKey: Guid(0016c340f5d82ff48b1756e37efa425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Honesty.prefab using Guid(0016c340f5d82ff48b1756e37efa425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932543d0d157ad5714f3aaafde53554f') in 0.062632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Magma.prefab
+  artifactKey: Guid(f61520d526e2573438225f84a0220847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Magma.prefab using Guid(f61520d526e2573438225f84a0220847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125245ece0879ad0ffd8fb64b20a6a51') in 0.033511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Plasma.prefab
+  artifactKey: Guid(38833800f7af1784180d220b342afb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Plasma.prefab using Guid(38833800f7af1784180d220b342afb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752ac7869e76977cb3eea192b0db7434') in 0.033827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Thunder.prefab
+  artifactKey: Guid(837b69c41a8880a43ac3434cbbadb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Thunder.prefab using Guid(837b69c41a8880a43ac3434cbbadb285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f249f16435e674584925ab5ff2fd238f') in 0.034431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Defeated.prefab
+  artifactKey: Guid(95a10ed4139d27943a88b996f0a227b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Defeated.prefab using Guid(95a10ed4139d27943a88b996f0a227b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db443eef2a77d3d50ac8e0f529574452') in 0.034143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Nightstrike.prefab
+  artifactKey: Guid(0a3f086a470be0d41b7e88530979e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Cyber Ninja Sword/Prefabs/Prefab_Sword_Cyber_Nightstrike.prefab using Guid(0a3f086a470be0d41b7e88530979e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e202030ca887b58b78d84ab860899c11') in 0.034912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2993.532527 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(68ef27d23e98c01438fe683d8a5ac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(68ef27d23e98c01438fe683d8a5ac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa558372468a025f06e058ac7e8508f') in 0.012812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588296 seconds.
+  path: Assets/Scripts/HeartPowerUp.cs
+  artifactKey: Guid(71f503d00a8ede44f85f7ee937459db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HeartPowerUp.cs using Guid(71f503d00a8ede44f85f7ee937459db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3477bdb4262e3bfac6d970e02b3acd1') in 0.017223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.980464 seconds.
+  path: Assets/Scripts/GemPowerUp.cs
+  artifactKey: Guid(a68f845bc31d14648a3df5bff10442b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GemPowerUp.cs using Guid(a68f845bc31d14648a3df5bff10442b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c08476a0153d5b36c11dca8650644') in 0.009983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.088972 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(eed0db18bae7bb645ba85a2c7297db30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(eed0db18bae7bb645ba85a2c7297db30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31158f36a7a9d8e68bf918d046152ea') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.496155 seconds.
+  path: Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(5ad65d97c0c758f4a8ffe2d95c8fd6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStats.cs using Guid(5ad65d97c0c758f4a8ffe2d95c8fd6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9f0f7138646b487f6bda66bfeef7a') in 0.010888 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006323 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1584ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (208.9 KB). Loaded Objects now: 3851.
+Memory consumption went from 212.3 MB to 212.1 MB.
+Total: 4.113600 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.230100 ms MarkObjects: 3.356600 ms  DeleteObjects: 0.187000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007057 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1691ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (186.5 KB). Loaded Objects now: 3866.
+Memory consumption went from 212.3 MB to 212.2 MB.
+Total: 6.677700 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.303000 ms MarkObjects: 5.764000 ms  DeleteObjects: 0.204500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006234 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1583ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (186.3 KB). Loaded Objects now: 3881.
+Memory consumption went from 212.4 MB to 212.2 MB.
+Total: 4.543600 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.210400 ms MarkObjects: 3.782000 ms  DeleteObjects: 0.192900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (567ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (194.0 KB). Loaded Objects now: 3896.
+Memory consumption went from 212.4 MB to 212.2 MB.
+Total: 5.571000 ms (FindLiveObjects: 0.484700 ms CreateObjectMapping: 0.657000 ms MarkObjects: 4.056500 ms  DeleteObjects: 0.370700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1688ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1294ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (551ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (193.9 KB). Loaded Objects now: 3911.
+Memory consumption went from 212.4 MB to 212.3 MB.
+Total: 7.844200 ms (FindLiveObjects: 0.487000 ms CreateObjectMapping: 0.270300 ms MarkObjects: 6.660100 ms  DeleteObjects: 0.424300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2583.413403 seconds.
+  path: Assets/Character/Animations/Vanguard By T. Choonyung@Dodging.fbx
+  artifactKey: Guid(72c4b02a94bff3246bd22cd9204bf144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard By T. Choonyung@Dodging.fbx using Guid(72c4b02a94bff3246bd22cd9204bf144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0925a4adf79015284d93abfc46977b74') in 0.272981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Animations/Vanguard@Breathing Idle.fbx
+  artifactKey: Guid(a13f843044ef96f4997a447f8391b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Breathing Idle.fbx using Guid(a13f843044ef96f4997a447f8391b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f130c6c6e384b9cdbbf7a91b74152e') in 0.019273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/Animations/Vanguard By T. Choonyung@Sword And Shield Power Up.fbx
+  artifactKey: Guid(5c22e5099b864f841a32901f0e315920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard By T. Choonyung@Sword And Shield Power Up.fbx using Guid(5c22e5099b864f841a32901f0e315920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89b4f33c4279871b164965c90621bc') in 0.078171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Animations/Vanguard@Standard Run.fbx
+  artifactKey: Guid(ff5ec1b3d76e7b34db9feb6eb46f506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Standard Run.fbx using Guid(ff5ec1b3d76e7b34db9feb6eb46f506d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2e53a3b779855c6537157d9271f0a6') in 0.021040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Animations/Vanguard@Running.fbx
+  artifactKey: Guid(3adf04bd031304b458587b82ef953d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Running.fbx using Guid(3adf04bd031304b458587b82ef953d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72a3de5daeecf065c1d091421f61bec') in 0.018659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Animations/Vanguard@Sword And Shield Jump.fbx
+  artifactKey: Guid(96566230326f49642a331889e3bcd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Sword And Shield Jump.fbx using Guid(96566230326f49642a331889e3bcd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4ded8d822bf7d180358ace9d7ceee7') in 0.021484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 940.281296 seconds.
+  path: Assets/Character/Animations/Vanguard@Great Sword Run.fbx
+  artifactKey: Guid(4e3b6653ffa2ccd4ba3b61a77ab26032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Great Sword Run.fbx using Guid(4e3b6653ffa2ccd4ba3b61a77ab26032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf474d67bc589ed4a80cce03a00e3f79') in 0.024194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/Animations/Vanguard@Run With Sword.fbx
+  artifactKey: Guid(1925d3cb43911d24ab7cbb416da561df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Run With Sword.fbx using Guid(1925d3cb43911d24ab7cbb416da561df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e58dcefe1373071556fb8cce219176') in 0.021902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.259820 seconds.
+  path: Assets/Character/Materials/Vanguard_VisorMat.mat
+  artifactKey: Guid(21e7ccdaa6fd91d44a166ae2d288e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Vanguard_VisorMat.mat using Guid(21e7ccdaa6fd91d44a166ae2d288e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f320451f5861486c5762c7b5e4ad7909') in 0.028771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Materials/VanguardBodyMat.mat
+  artifactKey: Guid(7a06faef5dd5255429cae33b6a41e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/VanguardBodyMat.mat using Guid(7a06faef5dd5255429cae33b6a41e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d0290866cd00abb9f40997b775f474') in 0.026915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.478040 seconds.
+  path: Assets/Character/Models/Vanguard.fbx
+  artifactKey: Guid(42d6e8581f42af14ab8a3f58eac3db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Models/Vanguard.fbx using Guid(42d6e8581f42af14ab8a3f58eac3db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419d119a2bf9fcd28f4a38e87803795f') in 0.069344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1124.341951 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Jump W Root.FBX
+  artifactKey: Guid(31b86f9a62289fe4eba6cc76582b09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Jump W Root.FBX using Guid(31b86f9a62289fe4eba6cc76582b09b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f71da76d6398ef17d12c3756334b15') in 0.110406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward W Root.FBX
+  artifactKey: Guid(6af7c2da179bba74ab708f9e7386bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward W Root.FBX using Guid(6af7c2da179bba74ab708f9e7386bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7aa240e72818539c1580a15eebf68') in 0.085179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward W Root.FBX
+  artifactKey: Guid(916cdb4d7688f614bb9714a9b184cf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward W Root.FBX using Guid(916cdb4d7688f614bb9714a9b184cf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c54c592a0ea47febd6f98ee7fc131c4') in 0.080979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward In Place.FBX
+  artifactKey: Guid(f0dfab830e7777240a220dcdb698adb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward In Place.FBX using Guid(f0dfab830e7777240a220dcdb698adb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad972a871c7e645c0bbde0c02a09da1') in 0.095737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Smash Attack.FBX
+  artifactKey: Guid(83f1c57bd1d0f6a4b8cc179a0cc87ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Smash Attack.FBX using Guid(83f1c57bd1d0f6a4b8cc179a0cc87ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9158b4122ebe9df6cec27e37e63a5655') in 0.096060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward In Place.FBX
+  artifactKey: Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward In Place.FBX using Guid(5c58933387b06c046a5f6eb866055790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed83fb0f712a93e59621ec3e11534e7d') in 0.095185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward W Root.FBX
+  artifactKey: Guid(52aa6b18414074c4abccfd74ad152bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Forward W Root.FBX using Guid(52aa6b18414074c4abccfd74ad152bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a1e9995a9d8a265f98a75ca84a66f1') in 0.088100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left W Root.FBX
+  artifactKey: Guid(d5a310ef9b4546a48a9af98fc33e1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left W Root.FBX using Guid(d5a310ef9b4546a48a9af98fc33e1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1be3bfa7fc2f8f6751f0d582a86dc07') in 0.091203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Smash Attack.FBX
+  artifactKey: Guid(ebe327d6a283c1f4d866e564ca0b5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Smash Attack.FBX using Guid(ebe327d6a283c1f4d866e564ca0b5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3826aa052aae8792b2190603a7b5c772') in 0.088746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Stab Attack.FBX
+  artifactKey: Guid(86ad529a54857f24ba490579bfcc56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Stab Attack.FBX using Guid(86ad529a54857f24ba490579bfcc56eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b9bfc8106f725c50f2554f29e1a171') in 0.090826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left W Root.FBX
+  artifactKey: Guid(6bb434ca0fe35b749a400955efcf3b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left W Root.FBX using Guid(6bb434ca0fe35b749a400955efcf3b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fcfaa08288237f0c61cd91cd2ed5cb') in 0.085655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward In Place.FBX
+  artifactKey: Guid(15b75d2717a675a4784387b8354472f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward In Place.FBX using Guid(15b75d2717a675a4784387b8354472f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3557ab3de13a8cb3b757513128c4d19e') in 0.091827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward In Place.FBX
+  artifactKey: Guid(6cb6b8fadf3f07d40aa719fb0e3a6050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward In Place.FBX using Guid(6cb6b8fadf3f07d40aa719fb0e3a6050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c139593a06ec1aeb143242c7dddfd2') in 0.087431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left In Place.FBX
+  artifactKey: Guid(cdb04800f8e1b374a93b2314c425074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left In Place.FBX using Guid(cdb04800f8e1b374a93b2314c425074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717ab6dbe2600b71b64e6d24b4ae0f4a') in 0.091383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left In Place.FBX
+  artifactKey: Guid(93d17616636e4344ba731f98af433285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Left In Place.FBX using Guid(93d17616636e4344ba731f98af433285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23cdb1753c1ae0dfc373fb55a1a762e') in 0.088140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward W Root.FBX
+  artifactKey: Guid(4035ebbc30edeeb498a1c5464736eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Run Backward W Root.FBX using Guid(4035ebbc30edeeb498a1c5464736eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47d4abd972a4e2479b69c537fafc620') in 0.083873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Stab Attack.FBX
+  artifactKey: Guid(ac3abed4693c026459aba23a9c7eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Stab Attack.FBX using Guid(ac3abed4693c026459aba23a9c7eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caae1e0dc2c28db74fa8c00dc8ec0b7e') in 0.086556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.485953 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right In Place.FBX
+  artifactKey: Guid(7e312894e90a2b9499fbf7d318e0a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right In Place.FBX using Guid(7e312894e90a2b9499fbf7d318e0a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a763bd5daab44ba3201670f985fb90e') in 0.156511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Take Damage.FBX
+  artifactKey: Guid(2c440fae25be21c4fb4d1e495383849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Take Damage.FBX using Guid(2c440fae25be21c4fb4d1e495383849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44de38df603b7c3c5b728f4f824c1c69') in 0.103439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right W Root.FBX
+  artifactKey: Guid(de441a40cc762394eb7e0220da896f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right W Root.FBX using Guid(de441a40cc762394eb7e0220da896f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb837ab37af20f909d619abbbaa8bd2') in 0.109158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Take Damage.FBX
+  artifactKey: Guid(ccf6810f56ac7b34b9cd17ada01cbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Take Damage.FBX using Guid(ccf6810f56ac7b34b9cd17ada01cbda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851e2f4603188380357ec760e22ceaa0') in 0.094802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right In Place.FBX
+  artifactKey: Guid(09a367d8651a66f4382fc24b3d0be4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right In Place.FBX using Guid(09a367d8651a66f4382fc24b3d0be4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92ea4dd4b7bfe05bfaa45e3e0b6bd00') in 0.096042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right W Root.FBX
+  artifactKey: Guid(c0c6345aa9498424fb7a4a88b0ea4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Strafe Right W Root.FBX using Guid(c0c6345aa9498424fb7a4a88b0ea4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9aeecbdf1bbde857dd3a0f837110ef') in 0.085485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.754849 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Idle.FBX
+  artifactKey: Guid(31ef2ad9adc147b4ba386f6e2df99f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Idle.FBX using Guid(31ef2ad9adc147b4ba386f6e2df99f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7947f49804c02d7e0e4d5b285f57929') in 0.086592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Jump In Place.FBX
+  artifactKey: Guid(dd91b08137e5e954fa47207f94623c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Jump In Place.FBX using Guid(dd91b08137e5e954fa47207f94623c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f50f71fce44b8fc9a5d4684bc764cc3') in 0.095223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Idle.FBX
+  artifactKey: Guid(c87cf6f81b4b72a4eb3acfa19f05bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Idle.FBX using Guid(c87cf6f81b4b72a4eb3acfa19f05bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ba4901aa19df0ad515c0c20a4d833c') in 0.086538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Jump In Place.FBX
+  artifactKey: Guid(1a1c63557b37d1240a5ac8c100802a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Jump In Place.FBX using Guid(1a1c63557b37d1240a5ac8c100802a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8441d3ee1c58bc68d681b316cfa370') in 0.088444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Jump W Root.FBX
+  artifactKey: Guid(b78511b091b8e4e4c9c2443c5efd4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Jump W Root.FBX using Guid(b78511b091b8e4e4c9c2443c5efd4391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe1a87975862afcd8bdf9d23e2bf40a') in 0.090620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227510 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Die.FBX
+  artifactKey: Guid(f98e921a4bf7e9644ad07becaccbf218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Die.FBX using Guid(f98e921a4bf7e9644ad07becaccbf218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6207f9b4202c715499912f53674c75') in 0.087659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Defend.FBX
+  artifactKey: Guid(dce807e250875cf47b36b4a2e3db37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Defend.FBX using Guid(dce807e250875cf47b36b4a2e3db37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e157b3f210d1bcfdafc1163d6379ec2') in 0.092101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Defend.FBX
+  artifactKey: Guid(6433a82a889b92448abf3bc7e915ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Defend.FBX using Guid(6433a82a889b92448abf3bc7e915ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d273d94bbccf1a371e9f63b9ed03bde') in 0.083532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Ceiling_Lights_New_1(Gr).fbx
+  artifactKey: Guid(515bb7eb8113e8a46b36a3543c48ee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Ceiling_Lights_New_1(Gr).fbx using Guid(515bb7eb8113e8a46b36a3543c48ee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb17e9138d01e59d6eeb1199499b0b68') in 0.205728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A(Gr).fbx
+  artifactKey: Guid(70ec2e89794c73746812fef02ff5d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A(Gr).fbx using Guid(70ec2e89794c73746812fef02ff5d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e6905d66d3e30df9cab7db520a7c85') in 0.205164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Die.FBX
+  artifactKey: Guid(8c1dbb5ad27eb5842bc00d1c8c6db829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Die.FBX using Guid(8c1dbb5ad27eb5842bc00d1c8c6db829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cef086063c1b78ac69a285cb45e9c4') in 0.088828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Pillars_1A(Gr).fbx
+  artifactKey: Guid(099ff09cf63f7f0409e54e085f6b0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Pillars_1A(Gr).fbx using Guid(099ff09cf63f7f0409e54e085f6b0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1871060887532f45157a7b1d0c6b3b12') in 0.156572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Cast Spell.FBX
+  artifactKey: Guid(00861e96ce312a441b60ad36c8f285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Cast Spell.FBX using Guid(00861e96ce312a441b60ad36c8f285ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6720ddf43aade674bc6c54b6f820d6a') in 0.089092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Cast Spell.FBX
+  artifactKey: Guid(fe02d79f80f664d4d95ca809354183dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Cast Spell.FBX using Guid(fe02d79f80f664d4d95ca809354183dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c0c6f3fa12e592b8869798c0f97bf3') in 0.086170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A_2(Gr).fbx
+  artifactKey: Guid(7649011e69153af429fdde502dc90940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A_2(Gr).fbx using Guid(7649011e69153af429fdde502dc90940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0151ba2477f0279b29c33f24730872') in 0.252799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Extreme Sci-Fi LITE/FBX/Corridors_3B(Gr).fbx
+  artifactKey: Guid(e63dd9175d8b1954cafd0679808bb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extreme Sci-Fi LITE/FBX/Corridors_3B(Gr).fbx using Guid(e63dd9175d8b1954cafd0679808bb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cc53b17d382a7494f56e6f28c499b2') in 0.181304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.066523 seconds.
+  path: Assets/Polygonal Metalon/Animations/Polygonal Metalon@Turn Right.FBX
+  artifactKey: Guid(fc2d3265555e92f43bc57284e1444438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Animations/Polygonal Metalon@Turn Right.FBX using Guid(fc2d3265555e92f43bc57284e1444438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4146f0042fc4765af80fc6eb85aecbc2') in 0.090013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Turn Right.FBX
+  artifactKey: Guid(eff44c85e0dccd4428540c58ea087319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Polygonal Metalon/Animations/Polygonal Metalon@Turn Right.FBX using Guid(eff44c85e0dccd4428540c58ea087319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cc59ef8dc48ed1ef75557c7edabc42') in 0.097459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006350 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1623ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (186.4 KB). Loaded Objects now: 3928.
+Memory consumption went from 225.7 MB to 225.6 MB.
+Total: 5.025500 ms (FindLiveObjects: 0.470000 ms CreateObjectMapping: 0.329300 ms MarkObjects: 4.024700 ms  DeleteObjects: 0.200200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63.627850 seconds.
+  path: Assets/Character/Animations/Vanguard@Great Sword Run.fbx
+  artifactKey: Guid(4e3b6653ffa2ccd4ba3b61a77ab26032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Great Sword Run.fbx using Guid(4e3b6653ffa2ccd4ba3b61a77ab26032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3212827bbc16833f36368c89e9a5d0') in 0.064627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.141108 seconds.
+  path: Assets/Character/Animations/Vanguard@Run With Sword.fbx
+  artifactKey: Guid(1925d3cb43911d24ab7cbb416da561df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Vanguard@Run With Sword.fbx using Guid(1925d3cb43911d24ab7cbb416da561df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d2ba3c40015eb5aef0a1a2fa73ddaa') in 0.012928 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006360 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1576ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (208.9 KB). Loaded Objects now: 3943.
+Memory consumption went from 225.8 MB to 225.6 MB.
+Total: 5.146400 ms (FindLiveObjects: 0.512300 ms CreateObjectMapping: 0.279600 ms MarkObjects: 4.058800 ms  DeleteObjects: 0.294200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1643ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1285ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (201.5 KB). Loaded Objects now: 3958.
+Memory consumption went from 225.8 MB to 225.6 MB.
+Total: 5.163000 ms (FindLiveObjects: 0.482100 ms CreateObjectMapping: 0.250200 ms MarkObjects: 4.200900 ms  DeleteObjects: 0.228200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1658ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1301ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (193.9 KB). Loaded Objects now: 3973.
+Memory consumption went from 225.8 MB to 225.6 MB.
+Total: 5.621900 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.237600 ms MarkObjects: 4.717800 ms  DeleteObjects: 0.282400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cruz2\Documents\3dgame_level-main\3dgame_level-main\MY3DGAME\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (186.3 KB). Loaded Objects now: 3988.
+Memory consumption went from 225.8 MB to 225.6 MB.
+Total: 4.228400 ms (FindLiveObjects: 0.380500 ms CreateObjectMapping: 0.241100 ms MarkObjects: 3.398100 ms  DeleteObjects: 0.207600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
