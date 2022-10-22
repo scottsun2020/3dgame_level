@@ -15837,7 +15837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68f845bc31d14648a3df5bff10442b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 4184831820040277122, guid: 1bee58de964145a42bfce895cf98666d, type: 3}
 --- !u!114 &514873873
 MonoBehaviour:
@@ -23247,7 +23247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f503d00a8ede44f85f7ee937459db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 3123075737211501182, guid: a3f72d5f213bb7d458dfc2c4369e7acf, type: 3}
 --- !u!114 &710116317
 MonoBehaviour:
@@ -26168,7 +26168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68f845bc31d14648a3df5bff10442b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 4184831820040277122, guid: 1bee58de964145a42bfce895cf98666d, type: 3}
 --- !u!114 &788053109
 MonoBehaviour:
@@ -32850,7 +32850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f503d00a8ede44f85f7ee937459db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 3123075737211501182, guid: a3f72d5f213bb7d458dfc2c4369e7acf, type: 3}
 --- !u!114 &938977837
 MonoBehaviour:
@@ -47442,7 +47442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f503d00a8ede44f85f7ee937459db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 3123075737211501182, guid: a3f72d5f213bb7d458dfc2c4369e7acf, type: 3}
 --- !u!114 &1326755219
 MonoBehaviour:
@@ -48521,7 +48521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011039909672, guid: aaccca5e65f90714c960e2019fd174c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.822704
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4000011039909672, guid: aaccca5e65f90714c960e2019fd174c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -57753,7 +57753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68f845bc31d14648a3df5bff10442b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 4184831820040277122, guid: 1bee58de964145a42bfce895cf98666d, type: 3}
 --- !u!114 &1674137945
 MonoBehaviour:
@@ -61674,7 +61674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68f845bc31d14648a3df5bff10442b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 4184831820040277122, guid: 1bee58de964145a42bfce895cf98666d, type: 3}
 --- !u!135 &1798451036
 SphereCollider:
@@ -63822,7 +63822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f503d00a8ede44f85f7ee937459db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1.4
+  multiplier: 0.3
   pickupEffect: {fileID: 3123075737211501182, guid: a3f72d5f213bb7d458dfc2c4369e7acf, type: 3}
 --- !u!135 &1846443917
 SphereCollider:
