@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class HeartPowerUp : MonoBehaviour
 {
-    public float multiplier = 1.4f;
+    public float multiplier = 0.3f;
    // public float duration = 4f;
 
     public GameObject pickupEffect;
+
+    //public int boost = 20;
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other){
 
@@ -22,9 +24,15 @@ public class HeartPowerUp : MonoBehaviour
         //Debug.Log("Power Up picked up!");
         Instantiate(pickupEffect, transform.position, transform.rotation);
 
+        //int boost = 20;
         //make player's health increase
         PlayerStats stats = player.GetComponent<PlayerStats>();
-        stats.health *= multiplier;
+        Debug.Log("currentHealth: " + stats.currentHealth);
+        Debug.Log("multiplier: " + multiplier);
+
+        float boost = stats.currentHealth * multiplier;
+        Debug.Log("boost" + boost);
+        stats.HealthBoost(boost);
         //make power up invisible
         //GetComponent<MeshRenderer>().enabled = false;
         //GetComponent<Collider>().enabled = false;
