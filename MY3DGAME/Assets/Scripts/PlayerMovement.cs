@@ -6,6 +6,13 @@ public class PlayerMovement : MonoBehaviour {
     private CharacterController controller;
     private Animator anim;
 
+    GameObject weapon;
+    BoxCollider colliderWeapon;
+
+    public bool CanAttack = true;
+    public float AttackCooldown = 1.0f;
+    public bool isAttacking = false;
+
     private Vector3 moveDirection;
     private Vector3 velocity;
     
@@ -17,7 +24,7 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private float walkSpeed;
     [SerializeField] private float runSpeed;
     [SerializeField] private float jumpHeight;
-   
+
     [SerializeField] private bool isGrounded;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundMask;
@@ -27,6 +34,9 @@ public class PlayerMovement : MonoBehaviour {
     private void Start() {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
+        weapon = GameObject.Find("Weapon");
+        colliderWeapon = weapon.GetComponent<BoxCollider>();
+        colliderWeapon.enabled = false;
     }
 
     // Update is called once per frame
@@ -68,6 +78,12 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             moveDirection *= movementSpeed;
+
+            if(Input.GetMouseButtonDown(0)) {
+                if(CanAttack) {
+                    Attack();
+                }
+            }
             
             if(Input.GetKeyDown(KeyCode.G)) {
                 Dodge();
@@ -100,6 +116,33 @@ public class PlayerMovement : MonoBehaviour {
     private void Jump() {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         anim.SetTrigger("Jump");
+    }
+
+    public void EnableAttack() {
+        colliderWeapon.enabled = true;
+    }
+
+    public void DisableAttack() {
+        colliderWeapon.enabled = false;
+    }
+
+    public void Attack() {
+        isAttacking = true;
+        CanAttack = false;
+        int attackIndex = Random.Range(1, 3);
+        anim.SetTrigger("Attack" + attackIndex);
+        StartCoroutine(ResetAttackCooldown());
+    }
+
+    IEnumerator ResetAttackCooldown() {
+        StartCoroutine(ResetAttackBool());
+        yield return new WaitForSeconds(AttackCooldown);
+        CanAttack = true;
+    }
+
+    IEnumerator ResetAttackBool() {
+        yield return new WaitForSeconds(1.0f);
+        isAttacking = false;
     }
 
     private void Dodge() {
