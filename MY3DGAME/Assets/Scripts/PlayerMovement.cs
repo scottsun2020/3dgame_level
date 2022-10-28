@@ -9,9 +9,12 @@ public class PlayerMovement : MonoBehaviour {
     GameObject weapon;
     BoxCollider colliderWeapon;
 
+
     public bool CanAttack = true;
     public float AttackCooldown = 1.0f;
     public bool isAttacking = false;
+    public bool isCooldown1;
+    public bool isCooldown2;
 
     private Vector3 moveDirection;
     private Vector3 velocity;
@@ -24,6 +27,9 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private float walkSpeed;
     [SerializeField] private float runSpeed;
     [SerializeField] private float jumpHeight;
+
+    [SerializeField] private float Ability1Cooldowm;
+    [SerializeField] private float Ability2Cooldowm;
 
     [SerializeField] private bool isGrounded;
     [SerializeField] private float groundCheckDistance;
@@ -84,8 +90,33 @@ public class PlayerMovement : MonoBehaviour {
                     Attack();
                 }
             }
-            
-            if(Input.GetKeyDown(KeyCode.G)) {
+
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                if (CanAttack && isCooldown1 == false){
+                    AttackAbility1();
+                }
+                else
+                {
+                    Debug.Log("Ability is in cooldown");
+                }
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (CanAttack && isCooldown2 == false)
+                {
+                    AttackAbility2();
+                }
+                else
+                {
+                    Debug.Log("Ability is in cooldown");
+                }
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.G)) {
                 Dodge();
             }
             
@@ -140,9 +171,41 @@ public class PlayerMovement : MonoBehaviour {
         CanAttack = true;
     }
 
+    IEnumerator ResetAbility1Cooldown() {
+        yield return new WaitForSeconds(Ability1Cooldowm);
+        isCooldown1 = false;
+    }
+
+    IEnumerator ResetAbility2Cooldown()
+    {
+        yield return new WaitForSeconds(Ability2Cooldowm);
+        isCooldown2 = false;
+    }
+
     IEnumerator ResetAttackBool() {
         yield return new WaitForSeconds(1.0f);
         isAttacking = false;
+    }
+
+    public void AttackAbility1() {
+        isAttacking = true;
+        CanAttack = false;
+        isCooldown1 = true;
+        
+        anim.SetTrigger("Ability 1");
+        StartCoroutine(ResetAttackCooldown());
+        StartCoroutine(ResetAbility1Cooldown());
+    }
+
+    public void AttackAbility2()
+    {
+        isAttacking = true;
+        CanAttack = false;
+        isCooldown2 = true;
+
+        anim.SetTrigger("Ability 2");
+        StartCoroutine(ResetAttackCooldown());
+        StartCoroutine(ResetAbility2Cooldown());
     }
 
     private void Dodge() {

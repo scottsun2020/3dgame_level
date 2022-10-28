@@ -7,7 +7,7 @@ public class CoolDownUi : MonoBehaviour
 {
 
     public Image imageCooldown;
-    public float cooldown = 5;
+    [SerializeField] private float cooldown;
     bool isCooldown;
 
     void Update()
