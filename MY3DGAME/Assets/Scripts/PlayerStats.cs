@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
-{
+public class PlayerStats : MonoBehaviour {
     public float maxHealth = 100f;
     public float currentHealth;
 
     public HealthBar healthBar;
 
-    void Start(){
+    void Start() {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -20,20 +19,19 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    void TakeDamage(float damage){
+    public void TakeDamage(float damage) {
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
     }
 
-    public void HealthBoost(float boost){
+    public void HealthBoost(float boost) {
         currentHealth += boost;
 
-        if(currentHealth > maxHealth){
+        if(currentHealth > maxHealth) {
             currentHealth = maxHealth;
         }
 
         healthBar.SetHealth(currentHealth);
     }
-
 }

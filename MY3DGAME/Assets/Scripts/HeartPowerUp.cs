@@ -2,19 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeartPowerUp : MonoBehaviour
-{
+public class HeartPowerUp : MonoBehaviour {
     public float multiplier = 0.3f;
-   // public float duration = 4f;
+    // public float duration = 4f;
 
     public GameObject pickupEffect;
 
-    //public int boost = 20;
+    // public int boost = 20;
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other){
-
         if(other.CompareTag("Player")){
-            //StartCoroutin(Pickup(other));
+            //StartCoroutine(Pickup(other));
             Pickup(other);
         }
     }
