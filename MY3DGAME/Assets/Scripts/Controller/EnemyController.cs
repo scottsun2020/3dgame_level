@@ -39,7 +39,7 @@ public class EnemyController : MonoBehaviour {
             agent.SetDestination(target.position);
             anim.SetBool("Walk Forward", true);
 
-            if(distance <= agent.stoppingDistance) {
+            if (distance <= agent.stoppingDistance) {
                 anim.SetBool("Walk Forward", false);
 
                 // Attack the target
