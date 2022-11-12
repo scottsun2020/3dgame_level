@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour {
+public class PlayerManager : MonoBehaviour
+{
     public GameObject player;
 
     #region Singleton
@@ -14,4 +15,5 @@ public class PlayerManager : MonoBehaviour {
     }
 
     #endregion
+    
 }

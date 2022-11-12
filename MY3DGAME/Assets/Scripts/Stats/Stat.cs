@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Stat{
-    [SerializeField] private int baseValue;
 
-    private int GetValue() {
+public class Stat{
+
+    [SerializeField]
+    private int baseValue;
+
+    private int GetValue(){
         return baseValue;
     }
+
+
 }

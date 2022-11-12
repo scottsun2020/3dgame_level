@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
     GameObject weapon;
     BoxCollider colliderWeapon;
 
+
     public bool CanAttack = true;
     public float AttackCooldown = 1.0f;
     public bool isAttacking = false;
@@ -90,22 +91,29 @@ public class PlayerMovement : MonoBehaviour {
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Q)) {
-                if (CanAttack && isCooldown1 == false) {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                if (CanAttack && isCooldown1 == false){
                     AttackAbility1();
                 }
-                else {
+                else
+                {
                     Debug.Log("Ability is in cooldown");
                 }
+
             }
 
-            if (Input.GetKeyDown(KeyCode.E)) {
-                if (CanAttack && isCooldown2 == false) {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (CanAttack && isCooldown2 == false)
+                {
                     AttackAbility2();
                 }
-                else {
+                else
+                {
                     Debug.Log("Ability is in cooldown");
                 }
+
             }
 
             if (Input.GetKeyDown(KeyCode.G)) {
@@ -156,12 +164,7 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetTrigger("Attack" + attackIndex);
         StartCoroutine(ResetAttackCooldown());
     }
-    
-    IEnumerator ResetAttackBool() {
-        yield return new WaitForSeconds(1.0f);
-        isAttacking = false;
-    }
-    
+
     IEnumerator ResetAttackCooldown() {
         StartCoroutine(ResetAttackBool());
         yield return new WaitForSeconds(AttackCooldown);
@@ -173,9 +176,15 @@ public class PlayerMovement : MonoBehaviour {
         isCooldown1 = false;
     }
 
-    IEnumerator ResetAbility2Cooldown() {
+    IEnumerator ResetAbility2Cooldown()
+    {
         yield return new WaitForSeconds(Ability2Cooldowm);
         isCooldown2 = false;
+    }
+
+    IEnumerator ResetAttackBool() {
+        yield return new WaitForSeconds(1.0f);
+        isAttacking = false;
     }
 
     public void AttackAbility1() {
@@ -188,7 +197,8 @@ public class PlayerMovement : MonoBehaviour {
         StartCoroutine(ResetAbility1Cooldown());
     }
 
-    public void AttackAbility2() {
+    public void AttackAbility2()
+    {
         isAttacking = true;
         CanAttack = false;
         isCooldown2 = true;
