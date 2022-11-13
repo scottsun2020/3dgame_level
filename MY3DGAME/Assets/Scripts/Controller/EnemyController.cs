@@ -68,8 +68,11 @@ public class EnemyController : MonoBehaviour {
 
             // Set the agent to go to the currently selected destination
             agent.SetDestination(points[destPoint].position);
+            anim.SetBool("Walk Forward", true);
 
             if(waypointDistance <= agent.stoppingDistance) {
+                anim.SetBool("Walk Forward", false);
+                
                 // Choose the next point in the array as the destination, cycling to the start if necessary
                 destPoint = (destPoint + 1) % points.Length;
 

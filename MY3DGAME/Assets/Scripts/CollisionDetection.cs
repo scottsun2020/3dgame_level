@@ -10,8 +10,20 @@ public class CollisionDetection : MonoBehaviour {
         if(other.tag == "Enemy" && weaponController.isAttacking) {
             Debug.Log("Player hit " + other.name + "!");
             other.GetComponent<Animator>().SetTrigger("Take Damage");
-            GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
-            Destroy(a, 0.5f);
+
+            EnemyStats stats = other.GetComponent<EnemyStats>();
+            LongRangeEnemyStats stats2 = other.GetComponent<LongRangeEnemyStats>();
+            
+            if(stats != null) {
+                stats.TakeDamage(50);
+                GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
+                Destroy(a, 0.5f);
+            }
+            else if(stats2 != null) {
+                stats2.TakeDamage(50);
+                GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
+                Destroy(a, 0.5f);
+            }
         }
     }
 }
