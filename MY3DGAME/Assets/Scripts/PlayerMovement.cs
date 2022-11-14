@@ -212,6 +212,33 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetTrigger("Dodge");
     }
 
+    public void SlowDown (float effect)
+    {
+        StartCoroutine(SlowDownDuration());
+        if (movementSpeed > 2.0f)
+        {
+            movementSpeed -= effect;
+        }
+        if (walkSpeed > 2.0f)
+        {
+            walkSpeed -= effect;
+        }
+        if (runSpeed > 2.0f)
+        {
+            runSpeed -= effect;
+        }
+        else
+            Debug.Log("Cannot slow down anymore");
+    }
+
+    IEnumerator SlowDownDuration()
+    {
+        yield return new WaitForSeconds(2.0f);
+        movementSpeed += 1.0f;
+        walkSpeed += 1.0f;
+        runSpeed += 1.0f;
+    }
+
     private void OnApplicationFocus(bool focus) {
         if(focus) {
             Cursor.lockState = CursorLockMode.Locked;
