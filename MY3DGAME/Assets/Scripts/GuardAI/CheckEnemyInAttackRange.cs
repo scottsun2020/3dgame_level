@@ -9,6 +9,7 @@ public class CheckEnemyInAttackRange : Node
     private Transform _transform;
     private Animator _animator;
 
+
     public CheckEnemyInAttackRange(Transform transform)
     {
         _transform = transform;
@@ -40,5 +41,7 @@ public class CheckEnemyInAttackRange : Node
         state = NodeState.FAILURE;
         return state;
     }
+
+
 
 }

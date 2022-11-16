@@ -13,7 +13,7 @@ public class TaskPatrol : Node
     private int _currentWaypointIndex = 0;
 
     //set wait time for waypoint
-    private float _waitTime = 1f;//in seconds
+    private float _waitTime = 2f;//in seconds
     private float _waitCounter = 0f;
     private bool _waiting = false;
 
@@ -26,7 +26,7 @@ public class TaskPatrol : Node
     public override NodeState Evaluate(){
         if(_waiting){
             _waitCounter += Time.deltaTime;
-            if(_waitCounter < _waitTime){
+            if(_waitCounter > _waitTime){
                 _waiting = false;
                 //_animator.SetBool("Jump", false);
                 _animator.SetBool("Walk Forward", true);

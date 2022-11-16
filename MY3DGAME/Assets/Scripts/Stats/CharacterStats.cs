@@ -1,37 +1,50 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth {get; private set;}
+    private Animator anim;
 
-    public Stat damage;
-    public Stat armor;
+    public float maxHealth = 50f;
+    public float currentHealth;
+    
+    public HealthBar healthBar;
+    public GameObject enemy;
+    public Collider enemyCollider;
 
-    void Awake(){
+
+    //public Stat damage;
+
+    void Start(){
+        anim = GetComponentInChildren<Animator>();
+
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
 
 
-    public void TakeDamage(int damage){
-        //damage will not below 0
-        damage = Mathf.Clamp(damage, 0, int.MaxValue);
+    public void TakeDamage(float damage){
 
         currentHealth -= damage;
-        Debug.Log(transform.name + " Take " + damage + " damage.");
+        anim.SetTrigger("Take Damage");
+
+        healthBar.SetHealth(currentHealth);
+
+        //Debug.Log(transform.name + " Take " + damage + " damage.");
 
         if(currentHealth <= 0){
             Die();
         }
     }
 
-    public virtual void Die(){
-        //Die in some way
-        //this method is meant to override
+    public void Die(){
+        enemyCollider.enabled = false;
+        anim.SetTrigger("Die");
 
-        Debug.Log(transform.name + " died.");
+        Destroy(enemy, 1f);
     }
 
 }

@@ -33,6 +33,16 @@ public class PlayerStats : MonoBehaviour {
         }
     }
 
+    public bool TakeHit()
+    {
+        currentHealth-= 10;
+        healthBar.SetHealth(currentHealth);
+
+        bool isDead = currentHealth <= 0;
+        if (isDead) Die();
+        return isDead;
+    }
+
     public void HealthBoost(float boost) {
         currentHealth += boost;
 

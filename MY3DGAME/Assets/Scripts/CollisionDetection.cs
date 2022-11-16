@@ -17,6 +17,8 @@ public class CollisionDetection : MonoBehaviour
             EnemyStats stats = other.GetComponent<EnemyStats>();
             LongRangeEnemyStats stats2 = other.GetComponent<LongRangeEnemyStats>();
             BossStats stats3 = other.GetComponent<BossStats>();
+            //This is for Behavior tree Enemy
+            CharacterStats stats4 = other.GetComponent<CharacterStats>();
 
             if (stats != null)
             {
@@ -35,6 +37,13 @@ public class CollisionDetection : MonoBehaviour
                 stats3.TakeDamage(25);
                 GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
                 Destroy(a, 0.5f);
+            }
+            else if (stats4 != null){
+                stats4.TakeDamage(10);
+                GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
+                Destroy(a, 0.5f);
+            
+
             }
         }
     }
