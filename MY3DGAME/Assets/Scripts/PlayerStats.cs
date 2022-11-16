@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour {
+    private CharacterController controller;
     private Animator anim;
 
     public float maxHealth = 100f;
@@ -11,12 +12,12 @@ public class PlayerStats : MonoBehaviour {
 
     public HealthBar healthBar;
     public PlayerMovement movement;
-    public Collider playerCollider;
 
     bool gameHasEnded = false;
     public float restartDelay = 5f;
 
     void Start() {
+        controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -26,15 +27,12 @@ public class PlayerStats : MonoBehaviour {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
 
-        // Debug.Log(transform.name + " Take " + damage + " damage.");
-
         if(currentHealth <= 0) {
             Die();
         }
     }
 
-    public bool TakeHit()
-    {
+    public bool TakeHit() {
         currentHealth-= 10;
         healthBar.SetHealth(currentHealth);
 
@@ -57,7 +55,7 @@ public class PlayerStats : MonoBehaviour {
         if(gameHasEnded == false) {
             gameHasEnded = true;
             movement.enabled = false;
-            playerCollider.enabled = false;
+            controller.detectCollisions = false;
             anim.SetTrigger("Death");
             Invoke("Restart", restartDelay);
         }

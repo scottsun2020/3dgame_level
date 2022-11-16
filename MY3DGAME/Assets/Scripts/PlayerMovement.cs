@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
     private CharacterController controller;
     private Animator anim;
-
+    
     GameObject weapon;
     BoxCollider colliderWeapon;
-
+    public int enemiesDefeated;
 
     public bool CanAttack = true;
     public float AttackCooldown = 1.0f;
@@ -40,9 +40,12 @@ public class PlayerMovement : MonoBehaviour {
     private void Start() {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
+        
         weapon = GameObject.Find("Weapon");
         colliderWeapon = weapon.GetComponent<BoxCollider>();
         colliderWeapon.enabled = false;
+        
+        enemiesDefeated = 0;
     }
 
     // Update is called once per frame
@@ -91,37 +94,26 @@ public class PlayerMovement : MonoBehaviour {
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                if (CanAttack && isCooldown1 == false){
+            if(Input.GetKeyDown(KeyCode.Q)) {
+                if(CanAttack && isCooldown1 == false) {
                     AttackAbility1();
                 }
-                else
-                {
+                else {
                     Debug.Log("Ability is in cooldown");
                 }
-
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                if (CanAttack && isCooldown2 == false)
-                {
+            if(Input.GetKeyDown(KeyCode.E)) {
+                if(CanAttack && isCooldown2 == false) {
                     AttackAbility2();
                 }
-                else
-                {
+                else {
                     Debug.Log("Ability is in cooldown");
                 }
-
             }
 
-            if (Input.GetKeyDown(KeyCode.G)) {
-                Dodge();
-            }
-            
             if(Input.GetKeyDown(KeyCode.Space)) {
-                Jump();
+                Dodge();
             }
         }
 
@@ -144,10 +136,10 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetFloat("Speed", 1, 0.1f, Time.deltaTime);
     }
 
-    private void Jump() {
-        velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-        anim.SetTrigger("Jump");
-    }
+    // private void Jump() {
+    //     velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+    //     anim.SetTrigger("Jump");
+    // }
 
     public void EnableAttack() {
         colliderWeapon.enabled = true;
@@ -155,6 +147,14 @@ public class PlayerMovement : MonoBehaviour {
 
     public void DisableAttack() {
         colliderWeapon.enabled = false;
+    }
+
+    public void EnableDodge() {
+        controller.detectCollisions = false;
+    }
+
+    public void DisableDodge() {
+        controller.detectCollisions = true;
     }
 
     public void Attack() {
@@ -176,8 +176,7 @@ public class PlayerMovement : MonoBehaviour {
         isCooldown1 = false;
     }
 
-    IEnumerator ResetAbility2Cooldown()
-    {
+    IEnumerator ResetAbility2Cooldown() {
         yield return new WaitForSeconds(Ability2Cooldowm);
         isCooldown2 = false;
     }
@@ -197,8 +196,7 @@ public class PlayerMovement : MonoBehaviour {
         StartCoroutine(ResetAbility1Cooldown());
     }
 
-    public void AttackAbility2()
-    {
+    public void AttackAbility2() {
         isAttacking = true;
         CanAttack = false;
         isCooldown2 = true;
@@ -212,27 +210,22 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetTrigger("Dodge");
     }
 
-    public void SlowDown (float effect)
-    {
+    public void SlowDown (float effect) {
         StartCoroutine(SlowDownDuration());
-        if (movementSpeed > 2.0f)
-        {
+        if (movementSpeed > 2.0f) {
             movementSpeed -= effect;
         }
-        if (walkSpeed > 2.0f)
-        {
+        if (walkSpeed > 2.0f) {
             walkSpeed -= effect;
         }
-        if (runSpeed > 2.0f)
-        {
+        if (runSpeed > 2.0f) {
             runSpeed -= effect;
         }
         else
             Debug.Log("Cannot slow down anymore");
     }
 
-    IEnumerator SlowDownDuration()
-    {
+    IEnumerator SlowDownDuration() {
         yield return new WaitForSeconds(2.0f);
         movementSpeed += 1.0f;
         walkSpeed += 1.0f;

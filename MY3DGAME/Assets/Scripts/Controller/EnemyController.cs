@@ -7,11 +7,6 @@ public class EnemyController : MonoBehaviour {
     public Transform[] points;
     private int destPoint = 0;
 
-    // Wait time in seconds
-    // private float _waitTime = 1f; 
-    // private float _waitCounter = 0f;
-    // private bool _waiting = false;
-
     // Define the enemy's look radius
     public float lookRadius = 10f;
 
@@ -80,18 +75,6 @@ public class EnemyController : MonoBehaviour {
                 FaceTarget(points[destPoint].position);
             }
         }
-    }
-
-    void GotoNextPoint() {
-        // Returns if no points have been set up
-        if (points.Length == 0)
-            return;
-
-        // Set the agent to go to the currently selected destination
-        agent.SetDestination(points[destPoint].position);
-
-        // Choose the next point in the array as the destination, cycling to the start if necessary
-        destPoint = (destPoint + 1) % points.Length;
     }
 
     public void Attack() {
