@@ -15,6 +15,8 @@ public class BossStats : MonoBehaviour
     public Collider bossCollider;
     public GameObject rageSteam;
 
+    public GameObject HitParticle;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -46,5 +48,13 @@ public class BossStats : MonoBehaviour
         rageSteam.SetActive(false);
         anim.SetTrigger("Die");
         Destroy(enemy, 1.2f);
+    }
+
+    void OnParticleCollision(GameObject other)
+    {
+        anim.SetTrigger("Take Damage");
+        Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        TakeDamage(5);
+
     }
 }

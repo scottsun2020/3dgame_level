@@ -18,6 +18,7 @@ public class EnemyStats : MonoBehaviour {
     public TextMeshProUGUI enemyCountText;
     public GameObject victoryTextObject;
 
+    public GameObject HitParticle;
     void Start() {
         anim = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
@@ -51,4 +52,13 @@ public class EnemyStats : MonoBehaviour {
             victoryTextObject.SetActive(true);
         }
     }
+
+    void OnParticleCollision(GameObject other)
+    {
+        anim.SetTrigger("Take Damage");
+        Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        TakeDamage(5);
+        
+    }
+
 }

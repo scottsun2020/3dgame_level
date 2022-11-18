@@ -1,26 +1,33 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class EggController : MonoBehaviour
-{
+public class EggController : MonoBehaviour{
+    public float HatchTime;
     [SerializeField] GameObject _full;
     [SerializeField] GameObject _damaged;
     [SerializeField] private ParticleSystem _particleSystem;
+    public GameObject Egg;
+    public GameObject enemy;
 
-    void OnMouseOver()
+    void Start()
     {
-        Destroy();
+        StartHatchTime();
+        enemy.gameObject.SetActive(false);
     }
 
-    public void Clear()
+    public void StartHatchTime()
     {
-        _full.gameObject.SetActive(true);
-        _damaged.gameObject.SetActive(false); 
+        StartCoroutine(Hatch());
     }
-    public void Destroy()
-    {
+
+    IEnumerator Hatch(){
+        yield return new WaitForSeconds(HatchTime);
         _full.gameObject.SetActive(false);
         _damaged.gameObject.SetActive(true);
         _particleSystem.Play();
+        Destroy(Egg, 1.0f);
+       enemy.gameObject.SetActive(true);
     }
 
 }

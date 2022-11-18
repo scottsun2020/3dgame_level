@@ -94,14 +94,6 @@ public class PlayerMovement : MonoBehaviour {
                 }
             }
 
-            if(Input.GetKeyDown(KeyCode.Q)) {
-                if(CanAttack && isCooldown1 == false) {
-                    AttackAbility1();
-                }
-                else {
-                    Debug.Log("Ability is in cooldown");
-                }
-            }
 
             if(Input.GetKeyDown(KeyCode.E)) {
                 if(CanAttack && isCooldown2 == false) {
