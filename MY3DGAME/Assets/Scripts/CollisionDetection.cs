@@ -19,12 +19,12 @@ public class CollisionDetection : MonoBehaviour {
             CharacterStats stats4 = other.GetComponent<CharacterStats>();
 
             if (stats != null) {
-                stats.TakeDamage(50);
+                stats.TakeDamage(25);
                 GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
                 Destroy(a, 0.5f);
             }
             else if (stats2 != null) {
-                stats2.TakeDamage(50);
+                stats2.TakeDamage(25);
                 GameObject a = Instantiate(HitParticle, new Vector3(other.transform.position.x, transform.position.y, other.transform.position.z), other.transform.rotation);
                 Destroy(a, 0.5f);
             }

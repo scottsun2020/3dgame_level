@@ -18,6 +18,9 @@ public class LongRangeEnemyStats : MonoBehaviour {
     public TextMeshProUGUI enemyCountText;
     public GameObject victoryTextObject;
 
+    public GameObject HitParticle;
+    public GameObject DeathParticle;
+
     void Start() {
         anim = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
@@ -37,12 +40,19 @@ public class LongRangeEnemyStats : MonoBehaviour {
     }
 
     public void Die() {
-        movement.enabled = false;
         enemyCollider.enabled = false;
-        anim.SetTrigger("Die");
-        Destroy(enemy, 1.2f);
+        movement.enabled = false;
         player.enemiesDefeated++;
         SetCountText(player.enemiesDefeated);
+
+        anim.SetTrigger("Die");
+        Invoke("DeathEffect", 1.6f);
+    }
+
+    void DeathEffect() {
+        GameObject a = Instantiate(DeathParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        Destroy(a, 0.6f);
+        Destroy(enemy);
     }
 
     void SetCountText(int count) {
@@ -50,5 +60,13 @@ public class LongRangeEnemyStats : MonoBehaviour {
         if(count >= 2) {
             victoryTextObject.SetActive(true);
         }
+    }
+
+    void OnParticleCollision(GameObject other) {
+        anim.SetTrigger("Take Damage");
+        TakeDamage(5);
+
+        GameObject a = Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        Destroy(a, 0.6f);
     }
 }

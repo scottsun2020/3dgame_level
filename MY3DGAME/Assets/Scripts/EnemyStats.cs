@@ -19,6 +19,8 @@ public class EnemyStats : MonoBehaviour {
     public GameObject victoryTextObject;
 
     public GameObject HitParticle;
+    public GameObject DeathParticle;
+
     void Start() {
         anim = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
@@ -38,12 +40,19 @@ public class EnemyStats : MonoBehaviour {
     }
 
     public void Die() {
-        movement.enabled = false;
         enemyCollider.enabled = false;
-        anim.SetTrigger("Die");
-        Destroy(enemy, 1.5f);
+        movement.enabled = false;
         player.enemiesDefeated++;
         SetCountText(player.enemiesDefeated);
+
+        anim.SetTrigger("Die");
+        Invoke("DeathEffect", 1.6f);
+    }
+
+    void DeathEffect() {
+        GameObject a = Instantiate(DeathParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        Destroy(a, 0.6f);
+        Destroy(enemy);
     }
 
     void SetCountText(int count) {
@@ -53,12 +62,10 @@ public class EnemyStats : MonoBehaviour {
         }
     }
 
-    void OnParticleCollision(GameObject other)
-    {
+    void OnParticleCollision(GameObject other) {
         anim.SetTrigger("Take Damage");
-        Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
         TakeDamage(5);
-        
+        GameObject a = Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
+        Destroy(a, 0.6f);
     }
-
 }

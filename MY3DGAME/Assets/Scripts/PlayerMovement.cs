@@ -94,7 +94,6 @@ public class PlayerMovement : MonoBehaviour {
                 }
             }
 
-
             if(Input.GetKeyDown(KeyCode.E)) {
                 if(CanAttack && isCooldown2 == false) {
                     AttackAbility2();
@@ -127,11 +126,6 @@ public class PlayerMovement : MonoBehaviour {
         movementSpeed = runSpeed;
         anim.SetFloat("Speed", 1, 0.1f, Time.deltaTime);
     }
-
-    // private void Jump() {
-    //     velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-    //     anim.SetTrigger("Jump");
-    // }
 
     public void EnableAttack() {
         colliderWeapon.enabled = true;
@@ -199,7 +193,11 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Dodge() {
+        isAttacking = true;
+        CanAttack = false;
+        
         anim.SetTrigger("Dodge");
+        StartCoroutine(ResetAttackCooldown());
     }
 
     public void SlowDown (float effect) {
