@@ -16,7 +16,7 @@ public class LongRangeEnemyStats : MonoBehaviour {
 
     public PlayerMovement player;
     public TextMeshProUGUI enemyCountText;
-    public GameObject victoryTextObject;
+    public GameObject victoryText;
 
     public GameObject HitParticle;
     public GameObject DeathParticle;
@@ -27,7 +27,7 @@ public class LongRangeEnemyStats : MonoBehaviour {
         healthBar.SetMaxHealth(maxHealth);
 
         SetCountText(player.enemiesDefeated);
-        victoryTextObject.SetActive(false);
+        victoryText.SetActive(false);
     }
 
     public void TakeDamage(float damage) {
@@ -58,7 +58,7 @@ public class LongRangeEnemyStats : MonoBehaviour {
     void SetCountText(int count) {
         enemyCountText.text = "Enemies Defeated: " + count.ToString();
         if(count >= 2) {
-            victoryTextObject.SetActive(true);
+            victoryText.SetActive(true);
         }
     }
 
