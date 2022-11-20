@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour {
     
     GameObject weapon;
     BoxCollider colliderWeapon;
+    
+    public GameObject playerProjectile;
+    public Transform projectileSpawn;
     public int enemiesDefeated;
 
     public bool CanAttack = true;
@@ -187,9 +190,15 @@ public class PlayerMovement : MonoBehaviour {
         CanAttack = false;
         isCooldown2 = true;
 
-        anim.SetTrigger("Ability 2");
+        anim.SetTrigger("Casting");
+        Invoke("CastProjectile", 0.28f);
+
         StartCoroutine(ResetAttackCooldown());
         StartCoroutine(ResetAbility2Cooldown());
+    }
+
+    void CastProjectile() {
+        GameObject projectile = Instantiate(playerProjectile, projectileSpawn.position, projectileSpawn.rotation);
     }
 
     private void Dodge() {
@@ -200,7 +209,7 @@ public class PlayerMovement : MonoBehaviour {
         StartCoroutine(ResetAttackCooldown());
     }
 
-    public void SlowDown (float effect) {
+    public void SlowDown(float effect) {
         StartCoroutine(SlowDownDuration());
         if (movementSpeed > 2.0f) {
             movementSpeed -= effect;
