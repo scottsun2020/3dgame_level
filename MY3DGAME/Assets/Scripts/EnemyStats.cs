@@ -57,9 +57,9 @@ public class EnemyStats : MonoBehaviour {
     }
 
     void SetCountText(int count) {
-        enemyCountText.text = "Enemies Defeated: " + count.ToString();
-        if(count >= 2) {
-            victoryText.SetActive(true);
+        enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/13";
+        if(count >= 13) {
+            enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/13\nGo to research base (mountain) and defeat the boss!";
         }
     }
 

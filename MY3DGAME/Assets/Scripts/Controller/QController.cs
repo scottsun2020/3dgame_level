@@ -23,6 +23,7 @@ public class QController : MonoBehaviour {
     IEnumerator Fireprojectile() {
         yield return new WaitForSeconds(1.3f);
         GameObject a = Instantiate(projectile, new Vector3(spawnPoint.transform.position.x, transform.position.y, spawnPoint.transform.position.z + 0.7f), spawnPoint.transform.rotation);
+        FindObjectOfType<AudioManager>().Play("Boulder");
         Destroy(a, 2.8f);
     }
 }

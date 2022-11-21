@@ -204,6 +204,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void CastProjectile() {
         GameObject projectile = Instantiate(playerProjectile, projectileSpawn.position, projectileSpawn.rotation);
+        FindObjectOfType<AudioManager>().Play("Cast Projectile");
     }
 
     private void Dodge() {

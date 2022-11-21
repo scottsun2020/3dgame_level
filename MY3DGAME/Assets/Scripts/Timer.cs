@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
-{
+public class Timer : MonoBehaviour {
     // start time value
     [SerializeField] float startTime;
 
@@ -18,8 +17,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TMP_Text timerText;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         //resets the currentTime to the start Time 
         currentTime = startTime;
         //displays the UI with the currentTime
@@ -29,16 +27,12 @@ public class Timer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-        if (timerStarted)
-        {
+    void Update() {
+        if (timerStarted) {
             // subtracting the previous frame's duration
             currentTime -= Time.deltaTime;
             // logic current reached 0?
-            if (currentTime <= 0)
-            {
+            if (currentTime <= 0) {
                 Debug.Log("timer reached zero");
                 timerStarted = false;
                 currentTime = 0;

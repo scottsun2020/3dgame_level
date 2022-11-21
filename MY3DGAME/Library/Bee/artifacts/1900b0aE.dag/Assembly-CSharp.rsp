@@ -398,7 +398,6 @@
 "Assets/Scripts/HeartPowerUp.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/LongRangeEnemyStats.cs"
-"Assets/Scripts/Patrol.cs"
 "Assets/Scripts/PlayerCollisionDetection.cs"
 "Assets/Scripts/PlayerCollisionDetection2.cs"
 "Assets/Scripts/PlayerManager.cs"

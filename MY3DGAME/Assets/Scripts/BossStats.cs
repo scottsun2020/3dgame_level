@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossStats : MonoBehaviour
-{
+public class BossStats : MonoBehaviour {
     private Animator anim;
 
     public float maxHealth = 250f;
@@ -16,45 +15,42 @@ public class BossStats : MonoBehaviour
     public GameObject rageSteam;
 
     public GameObject HitParticle;
+    public GameObject victoryText;
 
-    void Start()
-    {
+
+    void Start() {
         anim = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         rageSteam.SetActive(false);
     }
 
-    public void TakeDamage(float damage)
-    {
+    public void TakeDamage(float damage) {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
 
-        if (currentHealth <= maxHealth/2)
-        {
+        if (currentHealth <= maxHealth/2) {
             rageSteam.SetActive(true);
         }
 
-        if (currentHealth <= 0)
-        {
+        if (currentHealth <= 0) {
             Die();
         }
     }
 
-    public void Die()
-    {
+    public void Die() {
         movement.enabled = false;
         bossCollider.enabled = false;
         rageSteam.SetActive(false);
         anim.SetTrigger("Die");
-        Destroy(enemy, 1.2f);
+        FindObjectOfType<AudioManager>().Play("Enemy Death");
+        victoryText.SetActive(true);
+        Destroy(enemy, 1.5f);
     }
 
-    void OnParticleCollision(GameObject other)
-    {
+    void OnParticleCollision(GameObject other) {
         anim.SetTrigger("Take Damage");
         Instantiate(HitParticle, new Vector3(enemy.transform.position.x, transform.position.y, enemy.transform.position.z), enemy.transform.rotation);
         TakeDamage(5);
-
     }
 }

@@ -27,7 +27,6 @@ public class EnemyController : MonoBehaviour {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
 
-        // weapon = GameObject.Find("Horn");
         colliderWeapon = weapon.GetComponent<BoxCollider>();
         colliderWeapon.enabled = false;
     }
@@ -114,5 +113,4 @@ public class EnemyController : MonoBehaviour {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
-
 }
