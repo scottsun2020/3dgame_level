@@ -8,7 +8,6 @@ public class CollisionDetection : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other) {
         if (other.tag == "Enemy" && weaponController.isAttacking) {
-            // Debug.Log("Player hit " + other.name + "!");
             other.GetComponent<Animator>().SetTrigger("Take Damage");
 
             EnemyStats stats = other.GetComponent<EnemyStats>();

@@ -8,8 +8,6 @@ public class PlayerCollisionDetection : MonoBehaviour {
 
     public void OnTriggerEnter(Collider other) {
         if(other.tag == "Player" && weaponController.isAttacking) {
-            // Debug.Log("Enemy hit " + other.name + "!");
-
             PlayerStats stats = other.GetComponent<PlayerStats>();
             stats.TakeDamage(10);
 

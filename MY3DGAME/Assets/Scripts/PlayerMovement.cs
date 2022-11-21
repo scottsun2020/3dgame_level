@@ -124,6 +124,10 @@ public class PlayerMovement : MonoBehaviour {
         movementSpeed = walkSpeed;
         anim.SetFloat("Speed", 0.5f, 0.1f, Time.deltaTime);
     }
+    
+    public void Step() {
+        FindObjectOfType<AudioManager>().Play("Footsteps");
+    }
 
     private void Run() {
         movementSpeed = runSpeed;
@@ -151,6 +155,7 @@ public class PlayerMovement : MonoBehaviour {
         CanAttack = false;
         int attackIndex = Random.Range(1, 3);
         anim.SetTrigger("Attack" + attackIndex);
+        FindObjectOfType<AudioManager>().Play("Swing");
         StartCoroutine(ResetAttackCooldown());
     }
 

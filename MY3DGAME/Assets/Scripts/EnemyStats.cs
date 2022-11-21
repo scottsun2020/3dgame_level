@@ -46,6 +46,7 @@ public class EnemyStats : MonoBehaviour {
         SetCountText(player.enemiesDefeated);
 
         anim.SetTrigger("Die");
+        FindObjectOfType<AudioManager>().Play("Enemy Death");
         Invoke("DeathEffect", 1.6f);
     }
 

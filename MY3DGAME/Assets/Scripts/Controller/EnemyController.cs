@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour {
     Transform target;
     NavMeshAgent agent;
     
-    GameObject weapon;
+    public GameObject weapon;
     BoxCollider colliderWeapon;
 
     void Start() {
@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
 
-        weapon = GameObject.Find("Horn");
+        // weapon = GameObject.Find("Horn");
         colliderWeapon = weapon.GetComponent<BoxCollider>();
         colliderWeapon.enabled = false;
     }

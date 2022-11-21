@@ -46,6 +46,7 @@ public class LongRangeEnemyStats : MonoBehaviour {
         SetCountText(player.enemiesDefeated);
 
         anim.SetTrigger("Die");
+        FindObjectOfType<AudioManager>().Play("Long Range Enemy Death");
         Invoke("DeathEffect", 1.6f);
     }
 
