@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638023738887139757
+      ticks: 638048751523358826
     m_Hash: 3435482209
   m_LockFileStatus:
     m_FilePath: C:/Users/cruz2/Documents/3dgame/3dgame_level-main/MY3DGAME/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638023738887139757
+      ticks: 638048751523368799
     m_Hash: 83158333
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3363,6 +3363,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
     - 1.2.1
+    - 1.2.2
     compatible:
     - 1.0.1
     - 1.1.0
@@ -3376,6 +3377,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
     - 1.2.1
+    - 1.2.2
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework

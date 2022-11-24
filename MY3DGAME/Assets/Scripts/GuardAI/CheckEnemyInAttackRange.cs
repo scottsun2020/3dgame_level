@@ -1,34 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using BehaviorTree;
 
-public class CheckEnemyInAttackRange : Node
-{
+public class CheckEnemyInAttackRange : Node {
     private Transform _transform;
     private Animator _animator;
 
-
-    public CheckEnemyInAttackRange(Transform transform)
-    {
+    public CheckEnemyInAttackRange(Transform transform) {
         _transform = transform;
         _animator = transform.GetComponent<Animator>();
     }
 
-    public override NodeState Evaluate()
-    {
+    public override NodeState Evaluate() {
         object t = GetData("target");
-        if (t == null)
-        {
+
+        if (t == null) {
             state = NodeState.FAILURE;
             return state;
         }
-        Debug.Log("my attacking enemy is: " + t);
+        // Debug.Log("my attacking enemy is: " + t);
 
         Transform target = (Transform)t;
-        if (Vector3.Distance(_transform.position, target.position) <= GuardBT.attackRange)
-        {
+        if (Vector3.Distance(_transform.position, target.position) <= GuardBT.attackRange) {
             _animator.SetBool("Stab Attack", true);
             //_animator.SetBool("Jump", true);
 
@@ -41,7 +35,4 @@ public class CheckEnemyInAttackRange : Node
         state = NodeState.FAILURE;
         return state;
     }
-
-
-
 }

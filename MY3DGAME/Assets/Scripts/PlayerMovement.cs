@@ -102,7 +102,7 @@ public class PlayerMovement : MonoBehaviour {
                     AttackAbility2();
                 }
                 else {
-                    Debug.Log("Ability is in cooldown");
+                    // Debug.Log("Ability is in cooldown");
                 }
             }
 
@@ -235,6 +235,29 @@ public class PlayerMovement : MonoBehaviour {
         movementSpeed += 1.0f;
         walkSpeed += 1.0f;
         runSpeed += 1.0f;
+    }
+
+    public void SpeedUp(float effect) {
+        StartCoroutine(SpeedUpDuration());
+        if (movementSpeed < 12.0f) {
+            movementSpeed += effect;
+        }
+        if (walkSpeed < 12.0f) {
+            walkSpeed += effect;
+        }
+        if (runSpeed < 12.0f) {
+            runSpeed += effect;
+        }
+        else {
+            // Debug.Log("Cannot speed up anymore");
+        }
+    }
+
+    IEnumerator SpeedUpDuration() {
+        yield return new WaitForSeconds(10.0f);
+        movementSpeed -= 3.0f;
+        walkSpeed -= 3.0f;
+        runSpeed -= 3.0f;
     }
 
     private void OnApplicationFocus(bool focus) {
