@@ -57,9 +57,9 @@ public class LongRangeEnemyStats : MonoBehaviour {
     }
 
     void SetCountText(int count) {
-        enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/13";
-        if(count >= 13) {
-            enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/13\nGo to research base (mountain) and defeat the boss!";
+        enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/17";
+        if(count >= 17) {
+            enemyCountText.text = "Enemies Defeated: " + count.ToString() + "/17\nGo to research base (mountain) and defeat the boss!";
         }
     }
 

@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using BehaviorTree;
 
-public class GuardBT : Tree
-{
+public class GuardBT : Tree {
     public UnityEngine.Transform[] waypoints;
 
     public static float speed = 2f;
@@ -26,5 +25,13 @@ public class GuardBT : Tree
         });
 
         return root;
+    }
+
+    public void EnableAttack() {
+
+    }
+
+    public void DisableAttack() {
+
     }
 }
