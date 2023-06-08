@@ -1,4 +1,4 @@
-# our-3D-game
+# 3D Game Created by Unity 3D
 3D game project for Team 5 CS4555
 
 # Game Trailor
