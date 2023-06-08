@@ -1,6 +1,12 @@
 # our-3D-game
 3D game project for Team 5 CS4555
 
+# Game Trailor
+https://www.youtube.com/watch?v=qRMKbYHKM24
+
+# Gameplay Video
+https://www.youtube.com/watch?v=fxUXgIAA_8c
+
 Below is Game Pitch
 
 Name of Game: Terragrasp
